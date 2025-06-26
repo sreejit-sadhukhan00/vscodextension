@@ -2,7 +2,7 @@
 const https = require('https');
 
 // Hard-coded API key for testing (displayed with a ✓ or ✗ symbol to indicate validity)
-const apiKey = 'AIzaSyDFnGMMdP_nGKPNpHOOJUXIDRjydvqINv8'; 
+const apiKey = process.env.GEMINI_API_KEY; 
 
 console.log('\n=== Gemini API Test ===');
 console.log(`API Key: ${apiKey.substr(0, 6)}...${apiKey.substr(-4)}`);
