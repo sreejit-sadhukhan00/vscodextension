@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "requesterUsername": "",
+  "responderUsername": "",
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_7ed13f24-cc6e-442a-8b8c-0f36b26ce417",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 15
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 16
+            },
+            "text": "Set up Copilot.",
+            "kind": "text"
+          }
+        ],
+        "text": "Set up Copilot."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Signing in to GitHub.",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false
+          }
+        },
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Signing in to GitHub.",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false
+          }
+        }
+      ],
+      "responseId": "response_0ab8b47e-3466-49f1-92a7-ebc38f0cec5d",
+      "isCanceled": false,
+      "agent": {
+        "id": "setup.agent",
+        "name": "GitHub Copilot",
+        "isDefault": true,
+        "isCore": true,
+        "modes": [
+          "agent"
+        ],
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed && !previewFeaturesDisabled",
+        "slashCommands": [],
+        "disambiguation": [],
+        "locations": [
+          "panel"
+        ],
+        "metadata": {
+          "helpTextPrefix": {
+            "value": "You need to set up Copilot and be signed in to use Chat.",
+            "isTrusted": false,
+            "supportThemeIcons": false,
+            "supportHtml": false
+          },
+          "themeIcon": {
+            "id": "tools"
+          }
+        },
+        "description": "Edit files in your workspace in agent mode",
+        "extensionId": {
+          "value": "nullExtensionDescription",
+          "_lower": "nullextensiondescription"
+        },
+        "extensionDisplayName": "Null Extension Description",
+        "extensionPublisherId": "vscode"
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1750791221616
+    }
+  ],
+  "sessionId": "10edae71-1581-4b4d-88e0-c40ddb1652b8",
+  "creationDate": 1750791221554,
+  "isImported": false,
+  "lastMessageDate": 1750791221616
+}

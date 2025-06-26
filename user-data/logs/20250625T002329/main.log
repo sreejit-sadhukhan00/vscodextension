@@ -1,0 +1,6 @@
+2025-06-25 00:23:30.202 [error] Error: Error mutex already exists
+    at Mu.S (file:///C:/Users/sreej/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:125:18476)
+2025-06-25 00:23:30.212 [info] update#setState idle
+2025-06-25 00:24:00.217 [info] update#setState checking for updates
+2025-06-25 00:24:00.446 [info] update#setState idle
+2025-06-25 00:52:39.436 [info] Extension host with pid 11212 exited with code: 0, signal: unknown.
